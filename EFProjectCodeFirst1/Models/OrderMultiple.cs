@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace EFProjectCodeFirst1.Models
 {
     [Table("CustomerOrdersMultipleProducts")]
-    internal class OrderMultiple
+    public class OrderMultiple
     {
         [Key]
         public int CustomerOrderId { get; set; }
@@ -22,7 +22,7 @@ namespace EFProjectCodeFirst1.Models
     }
 
     [Table("CustomerOrdersDetails")]
-    internal class ProductData
+    public class ProductData
     {
         public int Id { get; set; }
         public int Quantity { get; set; }

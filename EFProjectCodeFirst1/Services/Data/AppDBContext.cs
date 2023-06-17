@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace EFProjectCodeFirst1.Services.Data
 {
-    internal class AppDBContext : DbContext
+    public class AppDBContext : DbContext
     {
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<ProductCategory> ProductCategories { get; set; } // LAZY

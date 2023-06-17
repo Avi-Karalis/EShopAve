@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace EFProjectCodeFirst1.Models
 {
     [Table("CustomerOrders")]
-    internal class Order
+    public class Order
     {
         [Key]
         public int CustomerOrderId { get; set; }

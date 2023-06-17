@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EFProjectCodeFirst1.Models
 {
-    internal class SomeTable
+    public class SomeTable
     {
         [Key]
         public int MyProperty { get; set; }
